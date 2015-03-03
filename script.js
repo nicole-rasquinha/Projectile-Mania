@@ -84,7 +84,7 @@ var go = function(v0, theta) {
 	var y = make_quadratic();
 
 	var times = [];
-	for (var k = 0.01; k < t_tot + 0.12; k+=0.01){
+	for (var k = 0.01; k < t_tot + 0.005; k+=0.01){
 		times.push(k);
 	}
 
